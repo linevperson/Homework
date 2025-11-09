@@ -1,0 +1,25 @@
+Створи перевірку віку:
+Якщо вік менше 18 — виведи "Доступ заборонено".
+Якщо від 18 і більше — виведи "Доступ дозволено".
+Використай if-else конструкцію.
+
+package org.example;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Введіть ваш вік:");
+        int user = scan.nextInt();
+                if (user >= 18) {
+                    System.out.println("Вхід дозволено");
+                } else {
+                    System.out.println("Відхилено");
+                }
+
+
+
+    }
+
+}
