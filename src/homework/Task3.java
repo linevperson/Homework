@@ -7,12 +7,12 @@ package homework;
 
 import java.util.Scanner;
 
-public class task3 {
+public class Task3 {
     public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     System.out.print("Введіть ваш вік:");
-    int user = scan.nextInt();
-    if (user >= 18) {
+    int userAge = input.nextInt();
+    if (userAge >= 18) {
         System.out.println("Вхід дозволено");
     } else {
         System.out.println("Відхилено");
