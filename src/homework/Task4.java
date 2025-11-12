@@ -9,33 +9,19 @@ import java.util.Scanner;
 public class Task4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Введіть день тижня:");
+        System.out.print("Введіть день тижня: ");
         String days = scan.nextLine();
 
-        switch (days) {
-            case "Понеділок" :
-                System.out.println("Робочий день");
-                break;
-            case "Вівторок" :
-                System.out.println("Робочий день");
-                break;
-            case "Середа" :
-                System.out.println("Робочий день");
-                break;
-            case "Четвер" :
-                System.out.println("Робочий день");
-                break;
-            case "П'ятниця" :
-                System.out.println("Робочий день");
-                break;
-            case "Субота" :
-                System.out.println("Вихідний день");
-                break;
-            case "Неділя" :
-                System.out.println("Вихідний день");
-                break;
-            default:
-                System.out.println("Не знаю такого дня");
+        String day = days.toLowerCase();
+
+        switch (day) {
+            case "понеділок", "вівторок", "середа", "четвер", "п'ятниця" ->
+                    System.out.println("Робочий день");
+            case "субота", "неділя" ->
+                    System.out.println("Вихідний день");
+            default ->
+                    System.out.println("Не знаю такого дня");
+        }
 
 
         }
@@ -44,4 +30,4 @@ public class Task4 {
 
 
     }
-}
+
