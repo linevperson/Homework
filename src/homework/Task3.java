@@ -18,7 +18,6 @@ public class Task3 {
         System.out.println("Відхилено");
     }
 
-test2
 
 }
 
