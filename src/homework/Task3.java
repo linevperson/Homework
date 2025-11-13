@@ -18,7 +18,7 @@ public class Task3 {
         System.out.println("Відхилено");
     }
 
-test
+//TODO не забувай стягувать гілку
 
 }
 
