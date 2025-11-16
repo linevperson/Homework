@@ -12,6 +12,7 @@ public class Task2 {
         double num2 = 6.35;
         boolean variant = false;
         System.out.println(word + "\n" + word2 + num + "\n" + word3 + num2 + "\n" + word4 + variant);
+
     }
 
 }
