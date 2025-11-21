@@ -1,4 +1,4 @@
-package homework;
+package homework.theme4;
 
 /*
  * Завдання 1:

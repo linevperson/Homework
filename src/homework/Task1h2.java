@@ -19,6 +19,6 @@ public class Task1h2 {
         Calculator calc = new Calculator();
         int result = calc.add(number1 , number2);
 
-        System.out.print("Cумма = " + result);
+        System.out.print("Сума = " + result);
     }
 }
