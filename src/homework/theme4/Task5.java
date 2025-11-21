@@ -1,6 +1,6 @@
 //Створи цикл for, який виводить числа від 1 до 5 у консоль.
 
-package homework;
+package homework.theme4;
 
 public class Task5 {
     public static void main(String[] args) {
