@@ -2,9 +2,9 @@
 //Створи дві змінні: expected = "Login successful" і actual = "Login successful".
 //Додай умову, яка перевіряє, чи збігаються ці значення, і виводить "Тест пройдено" або "Тест не пройдено".
 
-package homework;
+package homework34task5;
 
-public class Task5h2 {
+public class login {
     public static void main(String[] args) {
         String expected = "login successful" ;
         String actual = "login successful" ;
