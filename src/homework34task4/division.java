@@ -5,7 +5,7 @@ package homework34task4;
 
 import java.util.Scanner;
 
-public class division {
+public class division {//TODO назва класу має бути з великої літери
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class division {
         division(a , b);
     }
 
-    public static Integer division(int a , int b) { //TODO метод працює, але щоб він був більш універсальний зроби щоб він повертав значення, а не тільки виводив результат(так його можна буде перевикористовувати для інших задач)
+    public static Integer division(int a , int b) { //TODO назва методу має відрізнятися від назви класу
         try {
             int result = a / b;
             System.out.print("Результат: " + result);
