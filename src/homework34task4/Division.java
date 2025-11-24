@@ -5,7 +5,7 @@ package homework34task4;
 
 import java.util.Scanner;
 
-public class division {//TODO назва класу має бути з великої літери
+public class Division {//TODO назва класу має бути з великої літери
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -15,16 +15,15 @@ public class division {//TODO назва класу має бути з вели�
         System.out.print("Введіть друге число: ");
         int b = scan.nextInt();
 
-        division(a , b);
+        int result = divide(a , b);
+        System.out.println(result);
     }
 
-    public static Integer division(int a , int b) { //TODO назва методу має відрізнятися від назви класу
+    public static Integer divide(int a , int b) { //TODO назва методу має відрізнятися від назви класу
         try {
             int result = a / b;
-            System.out.print("Результат: " + result);
             return result;
         } catch (ArithmeticException error) {
-            System.out.print("Не можна ділити на нуль");
             return null;
         }
     }
