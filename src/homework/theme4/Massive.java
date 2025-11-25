@@ -1,6 +1,6 @@
 //Створи масив з п'яти імен студентів. Пройдися по ньому циклом і виведи кожне ім'я в консоль.
 
-package Homework34task2;
+package homework.theme4;
 
 public class Massive {
     public static void main (String[] args) {
