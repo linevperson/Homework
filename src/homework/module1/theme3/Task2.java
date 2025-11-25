@@ -1,4 +1,4 @@
-package homework.module1;
+package homework.module1.theme3;
 //В main класі створи:
 //Змінні типу String, int, double, boolean.
 //Виведи значення цих змінних у консоль.
