@@ -3,11 +3,11 @@
 //Виклич цей метод у методі main і виведи результат.
 
 
-package homework;
+package homework.module1.theme4;
 
 import java.util.Scanner;
 
-public class Task1h2 {
+public class CalculatorAdd {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 

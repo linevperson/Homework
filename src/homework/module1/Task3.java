@@ -3,7 +3,7 @@
 //Якщо від 18 і більше — виведи "Доступ дозволено".
 //Використай if-else конструкцію.
 
-package homework.theme4;
+package homework.module1;
 
 import java.util.Scanner;
 

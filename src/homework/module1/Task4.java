@@ -2,7 +2,7 @@
 //Створи змінну з назвою дня тижня (наприклад, "Monday").
 //Використай switch-case, щоб вивести "Робочий день" або "Вихідний день".
 
-package homework.theme4;
+package homework.module1;
 
 import java.util.Scanner;
 

@@ -2,7 +2,7 @@
 //Додай до нього метод add, який приймає два числа і повертає їхню суму (використай return).
 //Виклич цей метод у методі main і виведи результат.
 
-package homework;
+package homework.module1.theme4;
 
 public class Calculator {
     public int add(int a, int b) {
