@@ -4,7 +4,7 @@
 
 package homework34task5;
 
-public class login {//TODO клас з великої літери має бути
+public class Login {//TODO клас з великої літери має бути
     public static void main(String[] args) {
         String expected = "login successful" ;
         String actual = "login successful" ;
