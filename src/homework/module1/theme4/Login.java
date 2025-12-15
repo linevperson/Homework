@@ -2,7 +2,7 @@
 //Створи дві змінні: expected = "Login successful" і actual = "Login successful".
 //Додай умову, яка перевіряє, чи збігаються ці значення, і виводить "Тест пройдено" або "Тест не пройдено".
 
-package homework34task5;
+package homework.module1.theme4;
 
 public class Login {//TODO клас з великої літери має бути
     public static void main(String[] args) {
