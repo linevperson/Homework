@@ -4,8 +4,9 @@ public class Constructor {
     public static void main(String[] args) {
 
         Product assortment = new Product("Tesla model 3" , 25000, true);
+        assortment.printProductInfo();
 
-        System.out.print("Модель: " + assortment.getName() + "\n" + "Ціна: " + assortment.getPrice() + "\n" + "Наявність: " + assortment.getAvailability());
+
     }
 }
 
@@ -31,6 +32,13 @@ class Product {
     public void setAvailability(boolean availability) { this.availability = availability; }
 
     public boolean getAvailability() { return availability; }
+
+    public void printProductInfo() {
+        System.out.println("Модель: " + name);
+        System.out.println("Ціна: " + price);
+        System.out.println("Наявність: " + availability);
+    }
+    
 
 }
 
