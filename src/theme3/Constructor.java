@@ -3,9 +3,11 @@ package theme3;
 public class Constructor {
     public static void main(String[] args) {
 
-        Product assortment = new Product("Tesla model 3" , 25000, true);
-        assortment.printProductInfo();
+        Product assortmentTesla = new Product("Tesla model 3" , 25000, true);
+        Product assortmentBMW = new Product("BMW M3" , 53000, true);
 
+        assortmentTesla.printProductInfo();
+        assortmentBMW.printProductInfo();
 
     }
 }
