@@ -2,12 +2,18 @@ package theme3;
 
 public class Users {
     public static void main(String args[]) {
-        User admin = new Admin();
-        User customer = new Customer();
-
-        System.out.println(admin.getRole());
-        System.out.println(customer.getRole());
-
+        User admin = new Admin() ;
+            if (admin instanceof Admin) {
+                System.out.println("Admin");
+        } else if (admin instanceof Customer) {
+                System.out.println("Customer");
+            }
+        User customer = new Customer() ;
+            if (customer instanceof Customer) {
+                System.out.println("Customer");
+            } else if (customer instanceof Admin) {
+                System.out.println("Admin");
+            }
     }
 }
 
