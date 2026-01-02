@@ -1,6 +1,6 @@
 package theme3;
 
-public class Constructor {
+public class Store {
     public static void main(String[] args) {
 
         Product assortmentTesla = new Product("Tesla model 3" , 25000, true);
