@@ -10,8 +10,8 @@ import java.util.Set;
 public class Kit {
     public static void main (String[] args) {
         CategoryChecker checker = new CategoryChecker();
-        boolean exists = checker.checkCategory("Одяг");
-        System.out.println(exists);
+        boolean check = checker.checkCategory("Одяг");
+        System.out.println(check);
 
     }
 }
@@ -26,6 +26,8 @@ class CategoryChecker {
         categories.add("Побутова техніка");
 
         return categories.contains(category);
+
+
     }
 }
 
