@@ -12,8 +12,8 @@ public class ProductValidator {
         try {
             checkPrice(price);
             System.out.println("Ціна коректна");
-        } catch (InvalidPriceException e){
-            System.out.println(e.getMessage());
+        } catch (InvalidPriceException priceinvalid){
+            System.out.println(priceinvalid.getMessage());
         }
     }
     public static void checkPrice(double price) throws InvalidPriceException {
