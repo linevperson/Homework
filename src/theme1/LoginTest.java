@@ -12,7 +12,7 @@ public class LoginTest {
 
         driver.get("https://www.saucedemo.com/");
 
-        String title = driver.getTitle(); //а як він розуміє
+        String title = driver.getTitle();
 
         assert title != null; //тут мені видало лампочку,що може бути помилка на contains.Вирішив довіритись і додав цю строчку.Не треба було?)
         if (title.contains("Swag Labs")) {
