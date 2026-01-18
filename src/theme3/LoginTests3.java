@@ -33,8 +33,8 @@ public class LoginTests3 {
         softAssert.assertTrue(login , "Логін не знайдено.");
 
         boolean password = driver.findElement(By.id("passwor")).isDisplayed();
-        softAssert.assertTrue(password , "Пароль не знайдено."); //А чому коли тест падає,в консолі мені видає тількі повідомлення,що всі елементи перевірено?
-                                              //Чому не видає "Пароль не знайдено" ?
+        softAssert.assertTrue(password , "Пароль не знайдено."); //А чому коли тест падає,в консолі не видає "Пароль не знайдено" ?
+
         softAssert.assertAll();
 
         System.out.println("Всі елементи перевірено.");
