@@ -36,6 +36,10 @@ public class LoginTests4 {
         driver.findElement(By.id("user-name")).sendKeys(username);
         driver.findElement(By.id("password")).sendKeys(password);
 
+        System.out.println("Вхід в систему за допомогую данних: " +
+                "Login: " + username +
+                " Password: " + password );
+
     }
 
     @AfterMethod
