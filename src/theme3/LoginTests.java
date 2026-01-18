@@ -35,7 +35,7 @@ public class LoginTests {
     }
 
     @AfterMethod
-    public void closetest () {
+    public void closeTest () {
         driver.quit();
         System.out.println("Браузер закрито.");
     }

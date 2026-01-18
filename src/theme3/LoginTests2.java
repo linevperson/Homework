@@ -32,7 +32,7 @@ public class LoginTests2 {
 
 
     @AfterMethod
-    public void closetest () {
+    public void closeTest () {
         if (driver != null) {
         driver.quit();
     }
