@@ -19,7 +19,7 @@ public class LoginPage2 {
     @FindBy (id = "login-button")
     private WebElement loginButton;
 
-    public LoginPage(WebDriver driver) {
+    public LoginPage2(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver ,this); //в мене э питання тут по this,ніяк не можу зрозуміти чому я не можу вказати просто driver.
     }

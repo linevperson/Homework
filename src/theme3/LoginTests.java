@@ -5,6 +5,8 @@
 
 package theme3;
 
+import Pages.LoginPage;
+import Pages.LoginPage2;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -14,30 +16,33 @@ import org.testng.annotations.Test;
 public class LoginTests {
 
     WebDriver driver;
+    LoginPage2 loginPage2;
 
     @BeforeMethod
     public void setUp () {
         driver = new ChromeDriver();
-        driver.get("https://www.saucedemo.com/");
+        loginPage2 = new LoginPage2(driver);
+        loginPage2.open();
         System.out.println("Браузер відкрито.Сайт Swag Labs відкрито.");
     }
 
     @Test
     public void checkTitle () {
-        String title = driver.getTitle();
 
-        if (title.contains("Swag Labs")) {
-            System.out.println("Тест успішний!");
-        } else {
-            System.out.println("Тест не пройдено!");
-        }
+        loginPage2.typeUsername("standard_user");
+        loginPage2.typePassword("secret_sauce");
+        loginPage2.clickLogin();
+
+        System.out.println("Логін виконано!");
 
     }
 
     @AfterMethod
-    public void closeTest () {
-        driver.quit();
-        System.out.println("Браузер закрито.");
+    public void closeTest() {
+        if (driver != null) {
+            driver.quit();
+            System.out.println("Браузер закрито.");
+        }
     }
 }
 
